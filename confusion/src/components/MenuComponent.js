@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, CardImg, CardImgOverlay, CardBody, CardHeader, CardTitle, CardText} from "reactstrap";
+import {Card, CardImg, CardImgOverlay, CardBody, CardTitle, CardText} from "reactstrap";
 
 
 class Menu extends Component {
@@ -33,11 +33,6 @@ class Menu extends Component {
     }
 
     render() {
-        // var imgStyle = {
-        //     minWidth: "40px",
-        //     // width: "200px",
-        // };
-        // style={imgStyle}
         const menu = this.props.dishes.map((dish) => {
             return (
                 <div className="col-12 col-md-5 m-1">
