@@ -1,16 +1,19 @@
 import React, {Component} from "react";
-import {Card, CardBody, CardHeader, CardImg, CardImgOverlay, CardText, CardTitle, List} from "reactstrap";
-import dateFormat from "dateformat";
+import {Card, CardBody, CardImg, CardText, CardTitle, List} from "reactstrap";
+// import dateFormat from "dateformat";
 
-class DishDetail extends Component {
-
-    renderComments(comments) {
+   function renderComments(comments) {
         const commentList = comments.map((comment) => {
             return (
-                <div className="col-12">
+                <li>
                     <p>{comment.comment}</p>
-                    <h5>--{comment.author}, {dateFormat(comment.date, "mmm dS, yyyy")}</h5>
-                </div>
+                    {/*<h5>--{comment.author}, {dateFormat(comment.date, "mmm dS, yyyy")}</h5>*/}
+                    <h5>--{comment.author}, {new Intl.DateTimeFormat("en-US", {
+                        year: 'numeric',
+                        month: 'short',
+                        day: '2-digit'
+                    }).format(new Date(Date.parse(comment.date)))}</h5>
+                </li>
             );
         });
 
@@ -27,21 +30,30 @@ class DishDetail extends Component {
             );
     }
 
-    render() {
-        if (this.props.selectedDish != null)
+
+    function RenderDish(dish){
+       return (
+           <Card>
+               <CardImg top src={dish.image} alt={dish.name}/>
+               <CardBody>
+                   <CardTitle>{dish.name}</CardTitle>
+                   <CardText>{dish.description}</CardText>
+               </CardBody>
+           </Card>
+       );
+    }
+
+    const DishDetail = (props) => {
+        if (props.selectedDish != null)
             return (
-                <div className="row">
-                    <div className="col-12 col-md-5 m-1">
-                        <Card>
-                            <CardImg top src={this.props.selectedDish.image} alt={this.props.selectedDish.name}/>
-                            <CardBody>
-                                <CardTitle>{this.props.selectedDish.name}</CardTitle>
-                                <CardText>{this.props.selectedDish.description}</CardText>
-                            </CardBody>
-                        </Card>
-                    </div>
-                    <div className="col-12 col-md-5 m-1">
-                        {this.renderComments(this.props.selectedDish.comments)}
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-md-5 m-1">
+                            {RenderDish(props.selectedDish)}
+                        </div>
+                        <div className="col-12 col-md-5 m-1">
+                            {renderComments(props.selectedDish.comments)}
+                        </div>
                     </div>
                 </div>
             );
@@ -50,6 +62,5 @@ class DishDetail extends Component {
                 <div></div>
             );
     }
-}
 
 export default DishDetail;

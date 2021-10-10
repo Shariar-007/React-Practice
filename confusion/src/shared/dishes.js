@@ -12,35 +12,35 @@ export const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "John Lemon",
+                author: "John Lemon Uthappizza",
                 date: "2012-10-16T17:57:28.556094Z"
             },
             {
                 id: 1,
                 rating: 4,
                 comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                author: "Paul McVites",
+                author: "Paul McVites Uthappizza",
                 date: "2014-09-05T17:57:28.556094Z"
             },
             {
                 id: 2,
                 rating: 3,
                 comment: "Eat it, just eat it!",
-                author: "Michael Jaikishan",
+                author: "Michael Jaikishan Uthappizza",
                 date: "2015-02-13T17:57:28.556094Z"
             },
             {
                 id: 3,
                 rating: 4,
                 comment: "Ultimate, Reaching for the stars!",
-                author: "Ringo Starry",
+                author: "Ringo Starry Uthappizza",
                 date: "2013-12-02T17:57:28.556094Z"
             },
             {
                 id: 4,
                 rating: 2,
                 comment: "It's your birthday, we're gonna party!",
-                author: "25 Cent",
+                author: "25 Cent Uthappizza",
                 date: "2011-12-02T17:57:28.556094Z"
             }
         ]
@@ -58,35 +58,35 @@ export const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "John Lemon",
+                author: "John Lemon Zucchipakoda",
                 date: "2012-10-16T17:57:28.556094Z"
             },
             {
                 id: 1,
                 rating: 4,
                 comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                author: "Paul McVites",
+                author: "Paul McVites Zucchipakoda",
                 date: "2014-09-05T17:57:28.556094Z"
             },
             {
                 id: 2,
                 rating: 3,
                 comment: "Eat it, just eat it!",
-                author: "Michael Jaikishan",
+                author: "Michael Jaikishan Zucchipakoda",
                 date: "2015-02-13T17:57:28.556094Z"
             },
             {
                 id: 3,
                 rating: 4,
                 comment: "Ultimate, Reaching for the stars!",
-                author: "Ringo Starry",
+                author: "Ringo Starry Zucchipakoda",
                 date: "2013-12-02T17:57:28.556094Z"
             },
             {
                 id: 4,
                 rating: 2,
                 comment: "It's your birthday, we're gonna party!",
-                author: "25 Cent",
+                author: "25 Cent Zucchipakoda",
                 date: "2011-12-02T17:57:28.556094Z"
             }
         ]
@@ -104,35 +104,35 @@ export const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "John Lemon",
+                author: "John Lemon Vadonut",
                 date: "2012-10-16T17:57:28.556094Z"
             },
             {
                 id: 1,
                 rating: 4,
                 comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                author: "Paul McVites",
+                author: "Paul McVites Vadonut",
                 date: "2014-09-05T17:57:28.556094Z"
             },
             {
                 id: 2,
                 rating: 3,
                 comment: "Eat it, just eat it!",
-                author: "Michael Jaikishan",
+                author: "Michael Jaikishan Vadonut",
                 date: "2015-02-13T17:57:28.556094Z"
             },
             {
                 id: 3,
                 rating: 4,
                 comment: "Ultimate, Reaching for the stars!",
-                author: "Ringo Starry",
+                author: "Ringo Starry Vadonut",
                 date: "2013-12-02T17:57:28.556094Z"
             },
             {
                 id: 4,
                 rating: 2,
                 comment: "It's your birthday, we're gonna party!",
-                author: "25 Cent",
+                author: "25 Cent Vadonut",
                 date: "2011-12-02T17:57:28.556094Z"
             }
         ]
@@ -150,35 +150,35 @@ export const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "John Lemon",
+                author: "John Lemon ElaiCheese Cake",
                 date: "2012-10-16T17:57:28.556094Z"
             },
             {
                 id: 1,
                 rating: 4,
                 comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                author: "Paul McVites",
+                author: "Paul McVites ElaiCheese Cake",
                 date: "2014-09-05T17:57:28.556094Z"
             },
             {
                 id: 2,
                 rating: 3,
                 comment: "Eat it, just eat it!",
-                author: "Michael Jaikishan",
+                author: "Michael Jaikishan ElaiCheese Cake",
                 date: "2015-02-13T17:57:28.556094Z"
             },
             {
                 id: 3,
                 rating: 4,
                 comment: "Ultimate, Reaching for the stars!",
-                author: "Ringo Starry",
+                author: "Ringo Starry ElaiCheese Cake",
                 date: "2013-12-02T17:57:28.556094Z"
             },
             {
                 id: 4,
                 rating: 2,
                 comment: "It's your birthday, we're gonna party!",
-                author: "25 Cent",
+                author: "25 Cent ElaiCheese Cake",
                 date: "2011-12-02T17:57:28.556094Z"
             }
         ]
