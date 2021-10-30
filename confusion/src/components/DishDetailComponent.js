@@ -54,7 +54,7 @@ const DishDetail = (props) => {
     if (props.dish != null) {
         const commentList = props.comments.map((comment) => {
             return (
-                <li>
+                <li key={comment.id}>
                     <p>{comment.comment}</p>
                     <h6>{comment.author}, {new Intl.DateTimeFormat("en-US", {
                         year: 'numeric',
